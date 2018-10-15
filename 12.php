@@ -6,7 +6,10 @@ $str = '{"pageFooterLinks":"e38080","textShadow":"none","pageFooter":"e38080","p
 
 echo '输出增加几行内容';
 
-echo 111111;die();
+echo '新增一行打印';
+
+
+
 $b = mysql_real_escape_string($str);
 
 echo $b;
